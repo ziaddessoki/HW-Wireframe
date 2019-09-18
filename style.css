@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+Header, Nav, Section, Aside, Footer{
+    background-color: #ebebeb;
+
+}
+
+article{
+    color: #ebebeb;
+    background-color: #777;
+
+}
+
+p{
+    
+    color: #777;
+    background-color: #ebebeb;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
+}
+
+h{
+    
+    color: #777;
+    background-color: #ebebeb;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
+    left: 40px;
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+section{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    float: left;
+    width: 500px;/*how come i got aside width less but its showing the same*/
+    height: 180px;
+    position: relative;
+    margin-top:10px;
+    
+}
+article{
+   
+
+    padding:30px 40px;
+    margin-left: 40px;
+    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
+    /*top:25px;*/
+    width:50px;
+}
+
+
+aside{
+    float:right;
+    padding:50px 50px;
+    margin-top:10px;
+    
+    display: block;
+    width: 300px;
+    height: 160px;
+
+}
+
+footer{
+    clear: both;
+    margin-top: 300px;/*why isn't from section and aside but from nav?*/
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
