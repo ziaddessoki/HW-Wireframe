@@ -24,9 +24,12 @@ p{
     color: #777;
     background-color: #ebebeb;
     display: block;
+    width: 150px;
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
+    left: 180px;
+    top:130px;
 }
 
 h{
@@ -34,17 +37,20 @@ h{
     color: #777;
     background-color: #ebebeb;
     display: block;
+    width: 120px;
     padding-left: 25px;
     padding-right: 25px;
     position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
-    left: 40px;
+    left: 180px;
+    top: 120px;
 }
 
 .main{
     margin-top: 20px;
     margin-bottom: 20px;
-
+    overflow:auto;
 }
+
 header{
     margin-top: 30px;
     margin-bottom: 10px;
@@ -65,7 +71,7 @@ section{
     padding-top: 20px;
     padding-bottom: 60px;
     float: left;
-    width: 500px;/*how come i got aside width less but its showing the same*/
+    width: 540px;/*how come i got aside width less but its showing the same*/
     height: 180px;
     position: relative;
     margin-top:10px;
@@ -75,10 +81,14 @@ article{
    
 
     padding:30px 40px;
-    margin-left: 40px;
+   
     position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
     /*top:25px;*/
-    width:50px;
+    width: 320px;
+    height: 120px;
+    top: 45px;
+    left:80px;
+
 }
 
 
@@ -95,7 +105,6 @@ aside{
 
 footer{
     clear: both;
-    margin-top: 300px;/*why isn't from section and aside but from nav?*/
     margin-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
