@@ -24,12 +24,10 @@ p{
     color: #777;
     background-color: #ebebeb;
     display: block;
-    width: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
-    left: 180px;
-    top:130px;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    
 }
 
 h{
@@ -37,12 +35,11 @@ h{
     color: #777;
     background-color: #ebebeb;
     display: block;
-    width: 120px;
-    padding-left: 25px;
-    padding-right: 25px;
-    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
-    left: 180px;
-    top: 120px;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    font-weight: bold;
+    
 }
 
 .main{
@@ -67,41 +64,39 @@ nav{
 }
 
 
-section{
-    padding-top: 20px;
-    padding-bottom: 60px;
-    float: left;
-    width: 540px;/*how come i got aside width less but its showing the same*/
-    height: 180px;
-    position: relative;
-    margin-top:10px;
-    
-}
-article{
-   
-
-    padding:30px 40px;
-   
-    position: absolute;/*calculatiing lett,right,top and bottom from the body not the realative*/
-    /*top:25px;*/
-    width: 320px;
-    height: 120px;
-    top: 45px;
-    left:80px;
-
-}
-
-
 aside{
     float:right;
     padding:50px 50px;
-    margin-top:10px;
+    margin-top:5px;
     
     display: block;
     width: 300px;
     height: 160px;
 
 }
+
+section{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-top:5px;
+    float: left;
+    width: 540px;/*how come i got aside width less but its showing the same*/
+    height: 180px;
+    
+    
+}
+article{
+   
+    margin: 20px 10px 10px 20px;
+    padding:30px 40px;
+    width: 420px;
+    height: 120px;
+    
+
+}
+
+
+
 
 footer{
     clear: both;
